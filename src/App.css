@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: montserrat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-height: 4rem;
+  background: rgb(0, 0, 0);
+}
+
+.navLinks {
+  color: rgb(150, 149, 149);
+  text-decoration: none;
+  transition: color 0.1s linear;
+  margin: 0 10px;
+  font-size: 17px;
+}
+
+.navLinks:hover {
+  transition-duration: 0.2;
+  color: rgb(255, 255, 255);
+}
+
+.navLinks img {
+  background-image: url("https://image.flaticon.com/icons/svg/2702/2702602.svg");
+  margin-top: 23px;
+  transition: 0.1s linear;
+  width: 40px;
+}
